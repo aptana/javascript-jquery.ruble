@@ -4,7 +4,8 @@ with_defaults :scope => 'source.js' do
 
 snippet '$ (Select DOM Element)' do |s|
   s.trigger = '$'
-  s.expansion = '\$(${1/(.+)/(?1:\':)/}${1:string/element/array/function/jQuery object/string, context}${1/(.+)/(?1:\':)/})$0'
+  #s.expansion = '\$(${1/(.+)/(?1:\':)/}${1:string/element/array/function/jQuery object/string, context}${1/(.+)/(?1:\':)/})$0'
+  s.expansion = '\$(${1:\'string\'/element/array/function/jQuery object/\'string\', context})$0'
 end
 
 snippet '$(this)' do |s|
