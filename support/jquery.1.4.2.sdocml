@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Aptan Studio support for jQuery 1.4.2 -->
+<!-- Aptana Studio support for the jQuery 1.4.2 JavaScript Libary -->
 <javascript>
   <aliases>
   <alias name="$" type="jQuery" />
