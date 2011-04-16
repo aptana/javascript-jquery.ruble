@@ -1,13 +1,13 @@
 require 'ruble'
 
-bundle 'JavaScript jQuery' do |bundle|
+bundle 'jQuery' do |bundle|
   bundle.author = 'Jonathan Chaffer'
   bundle.contact_email_rot_13 = 'wpunssre@fgehpghervagrenpgvir.pbz'
   bundle.description =  <<END
 Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.
 END
 
-  bundle.menu 'JavaScript jQuery' do |main_menu|
+  bundle.menu 'jQuery' do |main_menu|
     main_menu.command '$ (Select DOM Element)'
     main_menu.command '$(this)'
     main_menu.command 'document ready'
