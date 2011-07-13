@@ -1262,20 +1262,6 @@ children:
   displayName: jQuery
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.CommandElement
-  async: false
-  customProperties: null
-  displayName: Documentation for Selection (jQuery)
-  input: [selection, word]
-  inputPath: null
-  keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [M4+H]
-  outputPath: null
-  outputType: show_as_html
-  path: commands/documentation_for_word.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.SnippetElement
   async: false
   customProperties:
@@ -4395,16 +4381,16 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: null
 customProperties: {contact_email_rot_13: wpunssre@fgehpghervagrenpgvir.pbz}
-decreaseIndentMarkers: &id002 {}
+decreaseIndentMarkers: {}
 description: 'Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.
 
   '
 displayName: jQuery
-fileTypeRegistry: *id002
-fileTypes: *id001
-foldingStartMarkers: *id002
-foldingStopMarkers: *id002
-increaseIndentMarkers: *id002
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb
