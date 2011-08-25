@@ -7,6 +7,9 @@ bundle 'jQuery' do |bundle|
 Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.
 END
 
+  bundle.project_build_path["jQuery 1.4.2"] = "#{File.dirname($0)}/support/jquery.1.4.2.sdocml"
+  bundle.project_build_path["jQuery 1.6.2"] = "#{File.dirname($0)}/support/jquery.1.6.2.sdocml"
+
   bundle.menu 'jQuery' do |main_menu|
     main_menu.command '$ (Select DOM Element)'
     main_menu.command '$(this)'
