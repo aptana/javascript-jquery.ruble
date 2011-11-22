@@ -39,12 +39,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: children
-      customProperties: null
-      displayName: children
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: filter
       customProperties: null
       displayName: filter
@@ -63,12 +57,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: filter (function)
-      customProperties: null
-      displayName: filter (function)
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: find
       customProperties: null
       displayName: find
@@ -81,45 +69,9 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: next
-      customProperties: null
-      displayName: next
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: not
       customProperties: null
       displayName: not
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: parent
-      customProperties: null
-      displayName: parent
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: parents
-      customProperties: null
-      displayName: parents
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: prev
-      customProperties: null
-      displayName: prev
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: siblings
-      customProperties: null
-      displayName: siblings
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: slice
-      customProperties: null
-      displayName: slice
       path: bundle.rb
       scope: null
     - children: *id001
@@ -138,48 +90,6 @@ children:
       commandName: last
       customProperties: null
       displayName: last
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: nextAll
-      customProperties: null
-      displayName: nextAll
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: nextUntil
-      customProperties: null
-      displayName: nextUntil
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: prevAll
-      customProperties: null
-      displayName: prevAll
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: prevUntil
-      customProperties: null
-      displayName: prevUntil
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: parentsUntil
-      customProperties: null
-      displayName: parentsUntil
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: has
-      customProperties: null
-      displayName: has
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: index
-      customProperties: null
-      displayName: index
       path: bundle.rb
       scope: null
     - children: *id001
@@ -267,12 +177,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: unbind
-      customProperties: null
-      displayName: unbind
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: live
       customProperties: null
       displayName: live
@@ -300,12 +204,6 @@ children:
       commandName: one
       customProperties: null
       displayName: one
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: delegate
-      customProperties: null
-      displayName: delegate
       path: bundle.rb
       scope: null
     - children: *id001
@@ -513,12 +411,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: html
-      customProperties: null
-      displayName: html
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: insertAfter
       customProperties: null
       displayName: insertAfter
@@ -621,12 +513,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: css
-      customProperties: null
-      displayName: css
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: '-'
       customProperties: null
       displayName: '-'
@@ -669,18 +555,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: offset
-      customProperties: null
-      displayName: offset
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: offset (function)
-      customProperties: null
-      displayName: offset (function)
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: offsetParent
       customProperties: null
       displayName: offsetParent
@@ -716,96 +590,6 @@ children:
       displayName: animate (with callback)
       path: bundle.rb
       scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: fadeIn
-      customProperties: null
-      displayName: fadeIn
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: fadeOut
-      customProperties: null
-      displayName: fadeOut
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: fadeTo
-      customProperties: null
-      displayName: fadeTo
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: hide
-      customProperties: null
-      displayName: hide
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: show
-      customProperties: null
-      displayName: show
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: slideDown
-      customProperties: null
-      displayName: slideDown
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: slideUp
-      customProperties: null
-      displayName: slideUp
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: slideToggle
-      customProperties: null
-      displayName: slideToggle
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: toggle (show/hide)
-      customProperties: null
-      displayName: toggle (show/hide)
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: stop
-      customProperties: null
-      displayName: stop
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: delay
-      customProperties: null
-      displayName: delay
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: clearqueue
-      customProperties: null
-      displayName: clearqueue
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: dequeue
-      customProperties: null
-      displayName: dequeue
-      path: bundle.rb
-      scope: null
     commandName: Effects
     customProperties: null
     displayName: Effects
@@ -813,21 +597,9 @@ children:
     scope: null
   - children:
     - children: *id001
-      commandName: attr
-      customProperties: null
-      displayName: attr
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: removeAttr
       customProperties: null
       displayName: removeAttr
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: data
-      customProperties: null
-      displayName: data
       path: bundle.rb
       scope: null
     - children: *id001
@@ -836,24 +608,12 @@ children:
       displayName: removeData
       path: bundle.rb
       scope: null
-    - children: *id001
-      commandName: val
-      customProperties: null
-      displayName: val
-      path: bundle.rb
-      scope: null
     commandName: Attributes
     customProperties: null
     displayName: Attributes
     path: bundle.rb
     scope: null
   - children:
-    - children: *id001
-      commandName: $.ajaxSetup
-      customProperties: null
-      displayName: $.ajaxSetup
-      path: bundle.rb
-      scope: null
     - children: *id001
       commandName: ajaxComplete
       customProperties: null
@@ -879,42 +639,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: $.getJSON
-      customProperties: null
-      displayName: $.getJSON
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.parseJSON
-      customProperties: null
-      displayName: $.parseJSON
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.getScript
-      customProperties: null
-      displayName: $.getScript
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.ajax
-      customProperties: null
-      displayName: $.ajax
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.post
-      customProperties: null
-      displayName: $.post
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.get
-      customProperties: null
-      displayName: $.get
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: ajaxStart
       customProperties: null
       displayName: ajaxStart
@@ -924,12 +648,6 @@ children:
       commandName: ajaxStop
       customProperties: null
       displayName: ajaxStop
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: load (AHAH)
-      customProperties: null
-      displayName: load (AHAH)
       path: bundle.rb
       scope: null
     - children: *id001
@@ -1191,12 +909,6 @@ children:
       path: bundle.rb
       scope: null
     - children: *id001
-      commandName: $.browser
-      customProperties: null
-      displayName: $.browser
-      path: bundle.rb
-      scope: null
-    - children: *id001
       commandName: $.browser.version
       customProperties: null
       displayName: $.browser.version
@@ -1218,12 +930,6 @@ children:
       commandName: $.isEmptyObject
       customProperties: null
       displayName: $.isEmptyObject
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: $.noop
-      customProperties: null
-      displayName: $.noop
       path: bundle.rb
       scope: null
     commandName: Utilities
