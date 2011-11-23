@@ -4,8 +4,6 @@
     <alias name="$" type="jQuery"/>
   </aliases>
   <class type="Promise" superclass="Object">
-<<<<<<< HEAD
-=======
     <constructors>
       <constructor>
         <parameters/>
@@ -15,7 +13,6 @@
         <description>This object provides a subset of the methods of the Deferred object (then, done, fail, always, pipe. isResolved, and isRejected) to prevent users from changing the state of the Deferred..</description>
       </constructor>
     </constructors>
->>>>>>> release
     <methods>
       <method name="pipe" scope="instance">
         <parameters>
@@ -306,8 +303,6 @@ $.get("test.php").then(
     </methods>
   </class>
   <class type="Deferred" superclass="Object">
-<<<<<<< HEAD
-=======
     <constructors>
       <constructor>
         <parameters>
@@ -321,7 +316,6 @@ $.get("test.php").then(
         <description>A chainable utility object that can register multiple callbacks into callback queues, invoke callback queues, and relay the success or failure state of any synchronous or asynchronous function.</description>
       </constructor>
     </constructors>
->>>>>>> release
     <methods>
       <method name="pipe" scope="instance">
         <parameters>
@@ -673,8 +667,6 @@ $.get("test.php").then(
   </class>
   <class type="jqXHR" superclass="Promise" visibility="basic">
     <description>Object that transfers data between a web client and a remote web server.</description>
-<<<<<<< HEAD
-=======
     <constructors>
       <constructor visibility="internal">
         <description>Creates a new instance of an XMLHttpRequest object.</description>
@@ -685,7 +677,6 @@ $.get("test.php").then(
         </return-types>
       </constructor>
     </constructors>
->>>>>>> release
     <properties>
       <property name="readyState" type="Number" access="read" visibility="basic">
         <description>Returns the current state of an object. Valid values are 0=uninitialized, 1=open, 2=sent, 3=receiving, 4=loaded.</description>
@@ -704,11 +695,7 @@ $.get("test.php").then(
       </property>
     </properties>
     <methods>
-<<<<<<< HEAD
-      <method name="overrideMimeType">
-=======
       <method name="overrideMimeType" visibility="basic">
->>>>>>> release
         <description>May be used in the beforeSend() callback function, for example, to modify the response content-type header.</description>
         <parameters>
           <parameter name="type" type="String" usage="required">
@@ -721,11 +708,7 @@ $.get("test.php").then(
         <example/>
         <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
       </method>
-<<<<<<< HEAD
-      <method name="abort">
-=======
       <method name="abort" visibility="basic">
->>>>>>> release
         <description>Cancels the current request.</description>
         <return-types>
           <return-type type="void"/>
@@ -733,11 +716,7 @@ $.get("test.php").then(
         <example/>
         <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
       </method>
-<<<<<<< HEAD
-      <method name="getAllResponseHeaders">
-=======
       <method name="getAllResponseHeaders" visibility="basic">
->>>>>>> release
         <description>Returns all HTTP headers as a single string.</description>
         <return-description>Returns all HTTP headers as a single string.</return-description>
         <return-types>
@@ -746,11 +725,7 @@ $.get("test.php").then(
         <example/>
         <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
       </method>
-<<<<<<< HEAD
-      <method name="getResponseHeader">
-=======
       <method name="getResponseHeader" visibility="basic">
->>>>>>> release
         <description>Returns the value of the specified HTTP header.</description>
         <return-description>Returns the value of the specified HTTP header.</return-description>
         <parameters>
@@ -764,11 +739,7 @@ $.get("test.php").then(
         <example/>
         <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
       </method>
-<<<<<<< HEAD
-      <method name="setRequestHeader">
-=======
       <method name="setRequestHeader" visibility="basic">
->>>>>>> release
         <description>Sets a header and a value for the request.</description>
         <parameters>
           <parameter name="header" type="String, Document" usage="required">
@@ -789,64 +760,6 @@ $.get("test.php").then(
         <example/>
         <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
       </method>
-<<<<<<< HEAD
-      <method name="statusCode">
-        <description>Invoke status-code-specific callbacks. If the request is successful, the status code functions take the same parameters as the success callback; if it results in an error, they take the same parameters as the error callback.</description>
-        <parameters>
-          <parameter name="map" type="Object" usage="required">
-            <description>A map of numeric HTTP codes and functions to be called when the response has the corresponding code.</description>
-          </parameter>
-        </parameters>
-        <return-types>
-          <return-type type="void"/>
-        </return-types>
-        <example/>
-        <remarks/>
-      </method>
-      <method name="success">
-        <description/>
-        <parameters>
-          <parameter name="callback" type="Function" usage="required"/>
-        </parameters>
-        <return-types>
-          <return-type type="jqXHR"/>
-        </return-types>
-        <example/>
-        <remarks/>
-      </method>
-      <method name="error">
-        <description/>
-        <parameters>
-          <parameter name="callback" type="Function" usage="required"/>
-        </parameters>
-        <return-types>
-          <return-type type="jqXHR"/>
-        </return-types>
-        <example/>
-        <remarks/>
-      </method>
-      <method name="complete">
-        <description/>
-        <parameters>
-          <parameter name="callback" type="Function" usage="required"/>
-        </parameters>
-        <return-types>
-          <return-type type="jqXHR"/>
-        </return-types>
-        <example/>
-        <remarks/>
-      </method>
-      <method name="send">
-        <description/>
-        <parameters/>
-        <return-types>
-          <return-type type="void"/>
-        </return-types>
-        <example/>
-        <remarks/>
-      </method>
-=======
->>>>>>> release
     </methods>
     <example/>
     <remarks>Although currently recognized by most browsers, the XMLHttpRequest object will be part of the HTML DOM Level 3 specification.</remarks>
@@ -8640,8 +8553,4 @@ $("img").attr("src", function() {
       </method>
     </methods>
   </class>
-<<<<<<< HEAD
 </javascript>
-=======
-</javascript>
->>>>>>> release
