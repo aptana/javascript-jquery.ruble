@@ -1,6 +1,7 @@
 require 'ruble'
 
-bundle t(:bundle_name) do |bundle|
+bundle do |bundle|
+  bundle.display_name = t(:bundle_name)
   bundle.author = 'Jonathan Chaffer'
   bundle.contact_email_rot_13 = 'wpunssre@fgehpghervagrenpgvir.pbz'
   bundle.description ='Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.'
