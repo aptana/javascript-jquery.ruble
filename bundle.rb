@@ -151,14 +151,14 @@ bundle do |bundle|
       #submenu.command 'clearqueue'
       #submenu.command 'dequeue'
     end
-    main_menu.menu 'Attributes' do |submenu|
+    main_menu.menu ':attributes' do |submenu|
       #submenu.command 'attr'
       submenu.command 'removeAttr'
       #submenu.command 'data'
       submenu.command 'removeData'
       #submenu.command 'val'
     end
-    main_menu.menu 'AJAX' do |submenu|
+    main_menu.menu ':ajax' do |submenu|
       #submenu.command '$.ajaxSetup'
       submenu.command 'ajaxComplete'
       submenu.command 'ajaxError'
