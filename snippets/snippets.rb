@@ -2,7 +2,7 @@ require 'ruble'
 
 with_defaults :scope => 'source.js' do
 
-snippet '$ (Select DOM Element)' do |s|
+snippet t(:select_dom_element) do |s|
   s.trigger = '$'
   #s.expansion = '\$(${1/(.+)/(?1:\':)/}${1:string/element/array/function/jQuery object/string, context}${1/(.+)/(?1:\':)/})$0'
   s.expansion = '\$(${1:\'string\'/element/array/function/jQuery object/\'string\', context})$0'
@@ -392,7 +392,7 @@ snippet 'die' do |s|
   s.expansion = '.die(\'${1:click/dblclick/mousedown/mouseup/mousemove/mouseover/mouseout/keydown/keypress/keyup}\')$0'
 end
 
-snippet 'document ready (safe)' do |s|
+snippet t(:document_ready_safe) do |s|
   s.trigger = 'ready'
   s.expansion = 'jQuery(document).ready(function(\$) {
 	${0:// Stuff to do as soon as the DOM is ready. Use \$() w/o colliding with other libs;}
@@ -400,7 +400,7 @@ snippet 'document ready (safe)' do |s|
 '
 end
 
-snippet 'document ready' do |s|
+snippet t(:document_ready) do |s|
   s.trigger = 'ready'
   s.expansion = '\$(document).ready(function() {
 	${0:// Stuff to do as soon as the DOM is ready;}
@@ -787,14 +787,14 @@ end
   # s.expansion = '.parentsUntil(${1/(.+)/(?1:\':)/}${1:selector}${1/(.+)/(?1:\':)/})$0'
 # end
 
-snippet 'plugin (animation)' do |s|
+snippet t(:plugin_animation) do |s|
   s.trigger = 'plugin'
   s.expansion = 'jQuery.fn.${1:myeffect} = function(speed, easing, callback) {
   return this.animate({${2:param1}: ${3:\'value\'}}, speed, easing, callback);
 };'
 end
 
-snippet 'plugin (selector)' do |s|
+snippet t(:plugin_selector) do |s|
   s.trigger = 'plugin'
   s.expansion = '(function(\$) {
   \$.extend(\$.expr[\':\'], {
@@ -807,7 +807,7 @@ snippet 'plugin (selector)' do |s|
 '
 end
 
-snippet 'plugin (method)' do |s|
+snippet t(:plugin_method) do |s|
   s.trigger = 'plugin'
   s.expansion = ';(function(\$) {
 ${2:// ${3:What does the $1 plugin do?}}

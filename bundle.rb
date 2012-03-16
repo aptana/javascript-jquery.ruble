@@ -1,21 +1,21 @@
 require 'ruble'
 
-bundle 'jQuery' do |bundle|
+bundle do |bundle|
+  bundle.display_name = t(:bundle_name)
   bundle.author = 'Jonathan Chaffer'
   bundle.contact_email_rot_13 = 'wpunssre@fgehpghervagrenpgvir.pbz'
-  bundle.description =  <<END
-Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.
-END
+  bundle.description ='Support for the <a href="http://jquery.com/">jQuery JavaScript library</a>.'
+  bundle.repository = 'git://github.com/aptana/javascript-jquery.ruble.git'
 
   bundle.project_build_path["jQuery 1.4.2"] = "#{File.dirname($0)}/support/jquery.1.4.2.sdocml"
   bundle.project_build_path["jQuery 1.6.2"] = "#{File.dirname($0)}/support/jquery.1.6.2.sdocml"
 
-  bundle.menu 'jQuery' do |main_menu|
-    main_menu.command '$ (Select DOM Element)'
+  bundle.menu t(:bundle_name) do |main_menu|
+    main_menu.command t(:select_dom_element)
     main_menu.command '$(this)'
-    main_menu.command 'document ready'
-    main_menu.command 'document ready (safe)'
-    main_menu.menu 'DOM Traversing' do |submenu|
+    main_menu.command t(:document_ready)
+    main_menu.command t(:document_ready_safe)
+    main_menu.menu t(:dom_traversing) do |submenu|
       submenu.command 'add'
       #submenu.command 'children'
       submenu.command 'filter'
@@ -49,13 +49,13 @@ END
       submenu.command 'hasClass'
       submenu.command 'is'
     end
-    main_menu.menu 'Iteration' do |submenu|
+    main_menu.menu t(:iteration) do |submenu|
       submenu.command 'each'
       submenu.command 'toArray'
       submenu.command 'get'
       submenu.command 'size'
     end
-    main_menu.menu 'Events' do |submenu|
+    main_menu.menu t(:events) do |submenu|
       submenu.command 'bind'
       #submenu.command 'unbind'
       submenu.command 'live'
@@ -93,7 +93,7 @@ END
       submenu.command 'submit'
       submenu.command 'toggle (event)'
     end
-    main_menu.menu 'DOM Modification' do |submenu|
+    main_menu.menu t(:dom_modification) do |submenu|
       submenu.command 'after'
       submenu.command 'append'
       submenu.command 'appendTo'
@@ -114,7 +114,7 @@ END
       submenu.command 'replaceWith'
       submenu.command 'replaceWith (function)'
     end
-    main_menu.menu 'Style' do |submenu|
+    main_menu.menu t(:style) do |submenu|
       submenu.command 'addClass'
       submenu.command 'removeClass'
       submenu.command 'toggleClass'
@@ -132,7 +132,7 @@ END
       submenu.command 'scrollLeft'
       submenu.command 'scrollTop'
     end
-    main_menu.menu 'Effects' do |submenu|
+    main_menu.menu t(:effects) do |submenu|
       submenu.command 'animate'
       submenu.command 'animate (with callback)'
       #submenu.separator
@@ -151,14 +151,14 @@ END
       #submenu.command 'clearqueue'
       #submenu.command 'dequeue'
     end
-    main_menu.menu 'Attributes' do |submenu|
+    main_menu.menu ':attributes' do |submenu|
       #submenu.command 'attr'
       submenu.command 'removeAttr'
       #submenu.command 'data'
       submenu.command 'removeData'
       #submenu.command 'val'
     end
-    main_menu.menu 'AJAX' do |submenu|
+    main_menu.menu ':ajax' do |submenu|
       #submenu.command '$.ajaxSetup'
       submenu.command 'ajaxComplete'
       submenu.command 'ajaxError'
@@ -176,7 +176,7 @@ END
       submenu.command 'serialize'
       submenu.command 'serializeArray'
     end
-    main_menu.menu 'Selectors' do |submenu|
+    main_menu.menu t(:selectors) do |submenu|
       submenu.command ':button'
       submenu.command ':checkbox'
       submenu.command ':checked'
@@ -210,7 +210,7 @@ END
       submenu.command ':text'
       submenu.command ':visible'
     end
-    main_menu.menu 'Utilities' do |submenu|
+    main_menu.menu t(:utilities) do |submenu|
       submenu.command '$.inArray'
       submenu.command '$.each'
       submenu.command '$.extend'
@@ -225,11 +225,11 @@ END
       submenu.command '$.isEmptyObject'
       #submenu.command '$.noop'
     end
-    main_menu.menu 'Plugins' do |submenu|
-      submenu.command 'plugin (method)'
-      submenu.command 'plugin (selector)'
-      submenu.command 'plugin (animation)'
+    main_menu.menu t(:plugins) do |submenu|
+      submenu.command t(:plugin_method)
+      submenu.command t(:plugin_selector)
+      submenu.command t(:plugin_animation)
     end
-    main_menu.command 'Documentation for Selection (jQuery)'
+    main_menu.command t(:docs_for_selection)
   end
 end

@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Documentation for Selection (jQuery)' do |cmd|
+command t(:docs_for_selection) do |cmd|
   #cmd.key_binding = 'M4+H'
   cmd.scope = 'source.js'
   cmd.output = :show_as_html
